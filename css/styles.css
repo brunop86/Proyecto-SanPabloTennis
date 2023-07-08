@@ -290,21 +290,24 @@ select {
 .card-title {
   font-family: 'Ubuntu', sans-serif;
   font-style: italic;
-  font-size: 2.2rem;
+  font-size: 2rem;
   margin: 0;
+  text-align: center;
+  padding-bottom: 1rem;
 }
 
 .card-text {
   font-family: 'Ubuntu', sans-serif;
   font-style: italic;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin: 0;
+  font-weight: lighter;
 }
 
 .list-group-item {
   font-family: 'Ubuntu', sans-serif;
   font-style: italic;
-  font-size: 1.2rem;
+  font-size: 1.0rem;
   margin: 0;
 }
 
