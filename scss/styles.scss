@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@0;1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu:ital@0;1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* ==========HEADER========== */
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    min-height: 10rem;
+    background-color: #144d29;
+        a {
+            &:hover {
+                color: grey;
+            }
+        }
+}
+
+.main-menu {
+    li {
+        font-size: 1.5rem;
+        list-style: none;
+        display: inline;
+        padding: 2rem;
+        }
+    a {
+        color: white;
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+    }
+}
+  
+.logo img {
+    max-width: 15rem;
+}
+
+/* ==========MAIN SECTION========== */
+
+
+.home-description {
+    p {
+        position: absolute;
+        width: 48vw;
+        color: #CCC9DC;
+        font-size: 2.4rem;
+        font-family: 'Ubuntu', sans-serif;
+        font-style: italic;
+        font-weight: 400;
+    }
+}
+
+.imagen-principal {
+    width: 100vw;
+    display: flex;
+}
+
+/*==========OBJECTIVES SECTION==========*/
+
+.title-obj {
+    display: flex;
+    background-color: #CCC9DC;
+    width: 100vw;
+    justify-content: center;
+        h2 {
+            font-family: 'Permanent Marker', cursive;
+            font-style: italic;
+            font-size: 3.5rem;
+        }   
+  }
+
+.description-obj {
+    display: flex;
+    background-color: #CCC9DC;
+    width: 100vw;
+    justify-content: space-evenly;
+        h2 {
+            font-family: 'Permanent Marker', cursive;
+            font-style: italic;
+            font-size: 3.2rem;
+        }
+        p {
+            font-family: 'Ubuntu', sans-serif;
+            font-style: italic;
+            font-size: 1.3rem;
+            padding-left: 2rem;
+            padding-right: 2rem;
+        }
+}
+
+/*==========SPONSORS SECTION==========*/
+
+.sponsors {
+    display: flex;
+    background-color: #1B2A41;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+/* ==========FOOTER========== */
+
+.container-social-media {
+    display: flex;
+    background-color: #1B2A41;
+    height: 2.5rem;
+    width: 100vw;
+    justify-content: center;
+    gap: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+  
+.container-footer {
+    display: flex;
+    background-color: #1B2A41;
+    width: 100vw;
+    justify-content: center;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+        h5 {
+            color: #CCC9DC;
+            font-size: 1rem;
+            margin: 0;
+            font-family: 'Ubuntu', sans-serif;
+            font-style: italic;
+        }
+}
+
+/* ==========EL-CLUB========== */
+
+.container-elclub {
+    background-color: #CCC9DC;
+    width: 100vw;
+        h1, h2 {
+            margin-left: 2rem;
+            margin-right: 2rem;
+            padding: 1rem;
+            font-size: 3rem;
+            font-family: 'Permanent Marker', cursive;
+            font-style: italic;
+            font-weight: 600;
+        }
+        h3 {
+            margin-left: 3rem;
+            margin-right: 2rem;
+            padding: 1rem;
+            font-size: 2rem;
+            font-family: 'Ubuntu', sans-serif;
+            font-style: italic;
+            font-weight: 400;
+        }
+        p, li {
+            margin-left: 2rem;
+            margin-right: 2rem;
+            padding: 1rem;
+            font-size: 1.3rem;
+            font-family: 'Ubuntu', sans-serif;
+            font-style: italic;
+        }
+}
+
+/* ==========TORNEOS========== */
+
+.container-formulario {
+    display: flex;
+    background-color: #CCC9DC;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: italic;
+}
+  
+fieldset legend {
+    font-size: 2.5rem;
+    padding: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: italic;
+}
+  
+input {
+    border-radius: 5px;
+    border: 1px solid #324A5F;
+    font-size: 1.2rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: italic;
+}
+  
+select {
+    border-radius: 5px;
+    border: 1px solid #324A5F;
+    font-size: 1.2rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: italic;
+}
+  
+.label {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: italic;
+}
+  
+.btn-submit {
+    background-color: #324A5F;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+  
+.btn-reset {
+    background-color: #324A5F;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+  
+.buttoms {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #CCC9DC;
+}
+  
+/* ==========GALERIA========== */
+  
+.container-galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100vw;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #CCC9DC;
+}
+  
+.imagen-galeria {
+    width: 400px;
+    border-radius: 1rem;
+}
+
+/* ==========CONTACTO========== */
+
+.container-contacto {
+    background-color: #CCC9DC;
+    width: 100vw;
+}
+  
+.container-social-media-coach {
+    display: flex;
+    padding: 0.5rem;
+    height: 50px;
+    width: 100%;
+    justify-content: space-evenly;
+}
+  
+.card-title {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: italic;
+    font-size: 2rem;
+    margin: 0;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+  
+.card-text {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: italic;
+    font-size: 1.2rem;
+    margin: 0;
+    font-weight: lighter;
+}
+  
+.list-group-item {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: italic;
+    font-size: 1.0rem;
+    margin: 0;
+}
+  
+/* ==========SECTION RESPONSIVE========== */
+
+@media (max-width: 768px) {
+    .main-menu {
+        padding-left: 0;
+        li {
+            font-size: 1.5rem;
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding: 0.5rem;
+        }
+    }
+    .title-obj {
+        h2 {
+            font-family: 'Permanent Marker', cursive;
+            font-style: italic;
+            font-size: 2rem;
+        }
+    }
+    .description-obj {
+        h2 {
+            font-family: 'Permanent Marker', cursive;
+            font-style: italic;
+            font-size: 1.5rem;
+        }
+        p {
+            font-family: 'Ubuntu', sans-serif;
+            font-style: italic;
+            font-size: 0.9rem;
+            padding-left: 2rem;
+            padding-right: 2rem;
+        }
+        
+    }
+    .sponsors {
+        display: flex;
+        flex-direction: column;
+        background-color: #1B2A41;
+        justify-content: space-evenly;
+        width: 100%;
+      }
+}
