@@ -1,0 +1,20 @@
+@mixin btn-main {
+    background-color: #324A5F;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+@mixin font-card {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: italic;
+    margin: 0;
+}
+
+$color-header: #144d29;
+$color-main: #CCC9DC;
+$color-secondary: #1B2A41;

@@ -1,6 +1,8 @@
+/* ==========FONTS FAMILIES========== */
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital@0;1&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu:ital@0;1&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+/* ==========GENERAL SETTINGS========== */
 * {
   padding: 0;
   margin: 0;
@@ -259,8 +261,8 @@ select {
 .card-title {
   font-family: "Ubuntu", sans-serif;
   font-style: italic;
-  font-size: 2rem;
   margin: 0;
+  font-size: 2rem;
   text-align: center;
   padding-bottom: 1rem;
 }
@@ -268,16 +270,16 @@ select {
 .card-text {
   font-family: "Ubuntu", sans-serif;
   font-style: italic;
-  font-size: 1.2rem;
   margin: 0;
+  font-size: 1.2rem;
   font-weight: lighter;
 }
 
 .list-group-item {
   font-family: "Ubuntu", sans-serif;
   font-style: italic;
-  font-size: 1rem;
   margin: 0;
+  font-size: 1rem;
 }
 
 /* ==========SECTION RESPONSIVE========== */

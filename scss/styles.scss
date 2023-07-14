@@ -1,8 +1,14 @@
+@import "components";
+
+/* ==========FONTS FAMILIES========== */
+
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@0;1&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu:ital@0;1&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+/* ==========GENERAL SETTINGS========== */
 
 * {
   padding: 0;
@@ -17,7 +23,7 @@
     justify-content: space-around;
     width: 100vw;
     min-height: 10rem;
-    background-color: #144d29;
+    background-color: $color-header;
         a {
             &:hover {
                 color: grey;
@@ -46,12 +52,11 @@
 
 /* ==========MAIN SECTION========== */
 
-
 .home-description {
     p {
         position: absolute;
         width: 48vw;
-        color: #CCC9DC;
+        color: $color-main;
         font-size: 2.4rem;
         font-family: 'Ubuntu', sans-serif;
         font-style: italic;
@@ -68,7 +73,7 @@
 
 .title-obj {
     display: flex;
-    background-color: #CCC9DC;
+    background-color: $color-main;
     width: 100vw;
     justify-content: center;
         h2 {
@@ -80,7 +85,7 @@
 
 .description-obj {
     display: flex;
-    background-color: #CCC9DC;
+    background-color: $color-main;
     width: 100vw;
     justify-content: space-evenly;
         h2 {
@@ -101,7 +106,7 @@
 
 .sponsors {
     display: flex;
-    background-color: #1B2A41;
+    background-color: $color-secondary;
     justify-content: space-evenly;
     width: 100vw;
     height: 5rem;
@@ -113,7 +118,7 @@
 
 .container-social-media {
     display: flex;
-    background-color: #1B2A41;
+    background-color: $color-secondary;
     height: 2.5rem;
     width: 100vw;
     justify-content: center;
@@ -124,13 +129,13 @@
   
 .container-footer {
     display: flex;
-    background-color: #1B2A41;
+    background-color: $color-secondary;
     width: 100vw;
     justify-content: center;
     padding-top: 0.5rem;
     padding-bottom: 1rem;
         h5 {
-            color: #CCC9DC;
+            color: $color-main;
             font-size: 1rem;
             margin: 0;
             font-family: 'Ubuntu', sans-serif;
@@ -141,7 +146,7 @@
 /* ==========EL-CLUB========== */
 
 .container-elclub {
-    background-color: #CCC9DC;
+    background-color: $color-main;
     width: 100vw;
         h1, h2 {
             margin-left: 2rem;
@@ -175,7 +180,7 @@
 
 .container-formulario {
     display: flex;
-    background-color: #CCC9DC;
+    background-color: $color-main;
     width: 100vw;
     align-items: center;
     justify-content: center;
@@ -214,25 +219,11 @@ select {
 }
   
 .btn-submit {
-    background-color: #324A5F;
-    color: white;
-    padding: 10px;
-    border-radius: 10px;
-    margin-left: 1rem;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 1.2rem;
-    cursor: pointer;
+    @include btn-main();
 }
   
 .btn-reset {
-    background-color: #324A5F;
-    color: white;
-    padding: 10px;
-    border-radius: 10px;
-    margin-left: 1rem;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 1.2rem;
-    cursor: pointer;
+    @include btn-main();
 }
   
 .buttoms {
@@ -240,7 +231,7 @@ select {
     width: 100vw;
     justify-content: center;
     padding: 2rem;
-    background-color: #CCC9DC;
+    background-color: $color-main;
 }
   
 /* ==========GALERIA========== */
@@ -252,7 +243,7 @@ select {
     width: 100vw;
     gap: 1rem;
     padding: 1rem;
-    background-color: #CCC9DC;
+    background-color: $color-main;
 }
   
 .imagen-galeria {
@@ -263,7 +254,7 @@ select {
 /* ==========CONTACTO========== */
 
 .container-contacto {
-    background-color: #CCC9DC;
+    background-color: $color-main;
     width: 100vw;
 }
   
@@ -274,31 +265,25 @@ select {
     width: 100%;
     justify-content: space-evenly;
 }
-  
+
 .card-title {
-    font-family: 'Ubuntu', sans-serif;
-    font-style: italic;
+    @include font-card();
     font-size: 2rem;
-    margin: 0;
     text-align: center;
     padding-bottom: 1rem;
 }
-  
+
 .card-text {
-    font-family: 'Ubuntu', sans-serif;
-    font-style: italic;
+    @include font-card();
     font-size: 1.2rem;
-    margin: 0;
     font-weight: lighter;
 }
-  
+
 .list-group-item {
-    font-family: 'Ubuntu', sans-serif;
-    font-style: italic;
+    @include font-card();
     font-size: 1.0rem;
-    margin: 0;
 }
-  
+
 /* ==========SECTION RESPONSIVE========== */
 
 @media (max-width: 768px) {
