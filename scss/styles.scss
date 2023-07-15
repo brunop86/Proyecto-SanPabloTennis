@@ -318,13 +318,16 @@ select {
             padding-left: 2rem;
             padding-right: 2rem;
         }
-        
     }
     .sponsors {
         display: flex;
         flex-direction: column;
         background-color: #1B2A41;
-        justify-content: space-evenly;
-        width: 100%;
-      }
-}
+        justify-content: center;
+        height: auto;
+    }
+    .img-fluid {
+        max-width: 0.5rem;
+        max-height: 0.5rem;
+    }
+}    
