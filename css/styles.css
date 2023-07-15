@@ -328,7 +328,7 @@ select {
     justify-content: center;
     height: auto;
   }
-  .img-fluid {
+  .img-responsive {
     max-width: 0.5rem;
     max-height: 0.5rem;
   }
