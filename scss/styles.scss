@@ -207,7 +207,7 @@ input {
     font-size: 1.2rem;
     font-family: 'Ubuntu', sans-serif;
     font-style: italic;
-    margin-left: 1rem;
+    margin-left: 0.7rem;
 }
   
 select {
@@ -216,7 +216,7 @@ select {
     font-size: 1.2rem;
     font-family: 'Ubuntu', sans-serif;
     font-style: italic;
-    margin-left: 1rem;
+    margin-left: 0.7rem;
 }
   
 label {
@@ -257,6 +257,8 @@ label {
 .imagen-galeria {
     width: 400px;
     border-radius: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 /* ==========CONTACTO========== */
@@ -347,9 +349,8 @@ label {
         font-style: italic;
     }
     .imagen-club {
-        width: 330px;
+        width: 350px;
         border-radius: 1rem;
-        margin-left: 2rem;
+        margin-left: 1rem;
     }
-
 }    
