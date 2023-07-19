@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
     <title>San Pablo Tennis</title>
 </head>
 <body>
@@ -30,7 +33,7 @@
     <main>
         <section class="home">
             <div class="home-description">
-                <p class="home-text d-none d-md-block">Te invitamos a vivir una experiencia rodeado de naturaleza, en tranquilidad, donde tus pasiones y los paisajes se fusionan para crear un ambiente perfecto. </p>
+                <p class="home-text d-none d-md-block animate__animated animate__fadeInLeft animate__delay-1s">Te invitamos a vivir una experiencia rodeado de naturaleza, en tranquilidad, donde tus pasiones y los paisajes se fusionan para crear un ambiente perfecto. </p>
                 <img class="imagen-principal" src="./images/imagen-banner.jpg" alt="imagen-banner">
             </div>
         </section>
@@ -40,14 +43,14 @@
             </div>
             <div class="description-obj">
                 <div class="row justify-content-center">
-                    <div class="col-6">
+                    <div class="col-6" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">>
                         <h2 class="row justify-content-center">DEPORTIVOS</h2>
                         <P>Familiarización de los niños con el deporte.</P>
                         <P>Adquirir las bases psicomotrices necesarias para el deporte (mejora de la coordinación óculo manual, mejora del equilibrio, mejora de la percepción espacio temporal).</P>
-                        <p>Mejorar las capacidades físicas básicas (fuerza, resistencia y flexibilidad).</p>
+                        <p>Mejorar las capacidades físicas básicas (fuerza, resistencia y flexibilidad).</pclass=>
                         <p>Conocer la reglamentación básica (normas de juego).<p>
                     </div>
-                    <div class="col-6">
+                    <div class="col-6" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
                         <h2 class="row justify-content-center">EDUCATIVOS</h2>
                         <P>Se busca formar a la persona aceptando al grupo y su rol dentro de este, lo que le servirá como entrenamiento para la vida en sociedad y para la creación por parte de él de un autoconcepto con capacidades y limitaciones.</P>
                         <P>Desarrollar herramientas para la superación personal.</P>
@@ -65,10 +68,10 @@
         </section>
         <section class="banner">
             <div class="sponsors">
-                <img class-="img-responsive" src="./images/vestuario.png" alt="vestuario">
-                <img class-="img-responsive" src="./images/babolat.png" alt="babolat">
-                <img class-="img-responsive" src="./images/head.png" alt="head">
-                <img class-="img-responsive" src="./images/powerfruits.png" alt="powerfruits">
+                <img data-aos="zoom-in" class="sponsor-img" src="./images/vestuario.png" alt="vestuario">
+                <img data-aos="zoom-in" class="sponsor-img" src="./images/babolat.png" alt="babolat">
+                <img data-aos="zoom-in" class="sponsor-img" src="./images/head.png" alt="head">
+                <img data-aos="zoom-in" class="sponsor-img" src="./images/powerfruits.png" alt="powerfruits">
             </div>
         </section>
     </main>
@@ -83,5 +86,9 @@
             </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>

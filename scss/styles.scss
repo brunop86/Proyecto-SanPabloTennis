@@ -114,6 +114,7 @@
     padding-bottom: 0.5rem;
 }
 
+
 /* ==========FOOTER========== */
 
 .container-social-media {
@@ -175,6 +176,11 @@
             font-style: italic;
         }
 }
+.imagen-club {
+        width: 600px;
+        border-radius: 1rem;
+        margin-left: 15rem;
+    }
 
 /* ==========TORNEOS========== */
 
@@ -324,10 +330,11 @@ select {
         flex-direction: column;
         background-color: #1B2A41;
         justify-content: center;
+        align-items: center;
         height: auto;
-    }
-    .img-responsive {
-        max-width: 0.5rem;
-        max-height: 0.5rem;
+        .sponsor-img {
+            width: 200px;
+            padding: 1rem;
+        }
     }
 }    

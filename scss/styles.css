@@ -157,6 +157,11 @@
   font-style: italic;
 }
 
+.imagen-club {
+  width: 400px;
+  border-radius: 1rem;
+}
+
 /* ==========TORNEOS========== */
 .container-formulario {
   display: flex;
@@ -318,9 +323,5 @@ select {
     background-color: #1B2A41;
     justify-content: center;
     height: auto;
-  }
-  .img-responsive {
-    max-width: 0.5rem;
-    max-height: 0.5rem;
   }
 }/*# sourceMappingURL=styles.css.map */
