@@ -200,13 +200,14 @@ fieldset legend {
     font-family: 'Ubuntu', sans-serif;
     font-style: italic;
 }
-  
+
 input {
     border-radius: 5px;
     border: 1px solid #324A5F;
     font-size: 1.2rem;
     font-family: 'Ubuntu', sans-serif;
     font-style: italic;
+    margin-left: 1rem;
 }
   
 select {
@@ -215,13 +216,14 @@ select {
     font-size: 1.2rem;
     font-family: 'Ubuntu', sans-serif;
     font-style: italic;
+    margin-left: 1rem;
 }
   
-.label {
-    padding: 0.5rem;
+label {
     font-size: 1.2rem;
     font-family: 'Ubuntu', sans-serif;
     font-style: italic;
+    margin-left: 1rem;
 }
   
 .btn-submit {
@@ -336,5 +338,12 @@ select {
             width: 200px;
             padding: 1rem;
         }
+    }
+    fieldset legend {
+        text-align: center;
+        font-size: 2.5rem;
+        padding: 2rem;
+        font-family: 'Ubuntu', sans-serif;
+        font-style: italic;
     }
 }    
