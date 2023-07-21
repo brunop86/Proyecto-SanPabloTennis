@@ -342,9 +342,9 @@ label {
     font-style: italic;
   }
   .imagen-club {
-    width: 350px;
+    width: 300px;
     border-radius: 1rem;
-    margin-left: 1rem;
+    margin-left: 2rem;
   }
 }
 
