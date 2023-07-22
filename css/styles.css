@@ -134,30 +134,29 @@
   margin-left: 2rem;
   margin-right: 2rem;
   padding: 1rem;
-  font-size: 3rem;
+  font-size: 3.2rem;
   font-family: "Permanent Marker", cursive;
   font-style: italic;
   font-weight: 600;
 }
 .container-elclub h3 {
-  margin-left: 3rem;
-  margin-right: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
   padding: 1rem;
   font-size: 2rem;
   font-family: "Ubuntu", sans-serif;
   font-style: italic;
-  font-weight: 400;
+  font-weight: 600;
 }
 .container-elclub p, .container-elclub li {
-  margin-left: 2rem;
-  margin-right: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
   padding: 1rem;
   font-size: 1.3rem;
   font-family: "Ubuntu", sans-serif;
   font-style: italic;
 }
-
-.imagen-club {
+.container-elclub .imagen-club {
   width: 600px;
   border-radius: 1rem;
   margin-left: 15rem;
@@ -250,8 +249,8 @@ label {
 .imagen-galeria {
   width: 400px;
   border-radius: 1rem;
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 /* ==========CONTACTO========== */
@@ -342,7 +341,7 @@ label {
     font-style: italic;
   }
   .imagen-club {
-    width: 300px;
+    width: 200px;
     border-radius: 1rem;
     margin-left: 2rem;
   }
