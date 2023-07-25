@@ -20,28 +20,26 @@
     width: 100vw;
     min-height: 10rem;
     background-color: $color-header;
+    .logo img {
+        max-width: 15rem;
+    }
+    .main-menu {
+        li {
+            font-size: 1.5rem;
+            list-style: none;
+            display: inline;
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
         a {
-            &:hover {
-                color: grey;
-            }
-        }
-        .logo img {
-            max-width: 15rem;
-        }
-        .main-menu {
-            li {
-                font-size: 1.5rem;
-                list-style: none;
-                display: inline;
-                margin: 2rem;
+            color: white;
+            text-decoration: none;
+            font-family: 'Montserrat', sans-serif;
+                &:hover {
+                    color: grey;
                 }
-            a {
-                color: white;
-                text-decoration: none;
-                font-family: 'Montserrat', sans-serif;
-                font-style: normal;
-            }
         }
+    }
 }
 
 /* ==========MAIN SECTION========== */
@@ -50,7 +48,7 @@
     p {
         position: absolute;
         width: 50vw;
-        color: $color-main;
+        color: white;
         font-size: 2.4rem;
         font-family: 'Montserrat', sans-serif;
         font-weight: 400;
@@ -100,18 +98,19 @@
     background-color: $color-secondary;
     justify-content: space-evenly;
     width: 100vw;
-    height: 5rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    height: 4.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
-
 
 /* ==========FOOTER========== */
 
 .container-social-media {
+    .img-logo {
+        height: 2rem;
+    } 
     display: flex;
     background-color: $color-secondary;
-    height: 2.5rem;
     width: 100vw;
     justify-content: center;
     gap: 1.5rem;
@@ -189,7 +188,7 @@ fieldset legend {
 input {
     border-radius: 5px;
     border: 1px solid #324A5F;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
     margin-left: 0.7rem;
 }
@@ -197,13 +196,13 @@ input {
 select {
     border-radius: 5px;
     border: 1px solid #324A5F;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
     margin-left: 0.7rem;
 }
   
 label {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
     margin-left: 1rem;
 }
@@ -262,7 +261,6 @@ label {
     @include font-card();
     font-size: 2rem;
     text-align: center;
-    padding-bottom: 1rem;
 }
 
 .card-text {
@@ -280,14 +278,10 @@ label {
 
 @media (max-width: 768px) {
     .main-menu {
+        display: flex;
+        flex-direction: column;
         text-align: center;
         padding: 0;
-        li {
-            font-size: 1.8rem;
-            list-style: none;
-            display: flex;
-            flex-direction: column;
-        }
     }
     .title-obj {
         h2 {
