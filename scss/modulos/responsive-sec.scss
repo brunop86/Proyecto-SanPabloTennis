@@ -1,0 +1,52 @@
+@media (max-width: 768px) {
+    .main-menu {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0;
+    }
+    .title-obj {
+        h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2rem;
+        }
+    }
+    .description-obj {
+        h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.5rem;
+        }
+        p {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.9rem;
+            padding-left: 2rem;
+            padding-right: 2rem;
+        }
+    }
+    .sponsors {
+        display: flex;
+        flex-direction: column;
+        background-color: #1B2A41;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        .sponsor-img {
+            width: 250px;
+            padding: 1rem;
+        }
+    }
+    fieldset legend {
+        text-align: center;
+        font-size: 2.5rem;
+        padding: 2rem;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .imagen-club {
+        max-width: 320px;
+        border-radius: 1rem;
+        margin-left: 2rem;
+    }
+    .img-fluid {
+        width: 100vw;
+    }
+}    

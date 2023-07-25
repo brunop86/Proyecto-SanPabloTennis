@@ -1,0 +1,27 @@
+.container-social-media {
+    .img-logo {
+        height: 2rem;
+    } 
+    display: flex;
+    background-color: $color-secondary;
+    width: 100vw;
+    justify-content: center;
+    gap: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+  
+.container-footer {
+    display: flex;
+    background-color: $color-secondary;
+    width: 100vw;
+    justify-content: center;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+        h5 {
+            color: $color-main;
+            font-size: 1rem;
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+        }
+}

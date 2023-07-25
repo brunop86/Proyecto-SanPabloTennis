@@ -1,0 +1,32 @@
+.container-elclub {
+    background-color: $color-main;
+    width: 100vw;
+        h1, h2 {
+            margin-left: 2rem;
+            margin-right: 2rem;
+            padding: 1rem;
+            font-size: 3rem;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+        }
+        h3 {
+            margin-left: 1rem;
+            margin-right: 1rem;
+            padding: 1rem;
+            font-size: 2rem;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+        }
+        p, li {
+            margin-left: 1rem;
+            margin-right: 1rem;
+            padding: 1rem;
+            font-size: 1.2rem;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .imagen-club {
+            width: 600px;
+            border-radius: 1rem;
+            margin-left: 3rem;
+        }
+}

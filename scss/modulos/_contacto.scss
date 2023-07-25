@@ -1,0 +1,29 @@
+.container-contacto {
+    background-color: $color-main;
+    width: 100vw;
+}
+  
+.container-social-media-coach {
+    display: flex;
+    padding: 0.5rem;
+    height: 50px;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.card-title {
+    @include font-card();
+    font-size: 2rem;
+    text-align: center;
+}
+
+.card-text {
+    @include font-card();
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+.list-group-item {
+    @include font-card();
+    font-size: 1.0rem;
+}

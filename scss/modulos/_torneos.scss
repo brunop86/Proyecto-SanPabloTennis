@@ -1,0 +1,52 @@
+.container-formulario {
+    display: flex;
+    background-color: $color-main;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+  
+fieldset legend {
+    font-size: 2.5rem;
+    padding: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+input {
+    border-radius: 5px;
+    border: 1px solid #324A5F;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 0.7rem;
+}
+  
+select {
+    border-radius: 5px;
+    border: 1px solid #324A5F;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 0.7rem;
+}
+  
+label {
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 1rem;
+}
+  
+.btn-submit {
+    @include btn-main();
+}
+  
+.btn-reset {
+    @include btn-main();
+}
+  
+.buttoms {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    padding: 2rem;
+    background-color: $color-main;
+}
