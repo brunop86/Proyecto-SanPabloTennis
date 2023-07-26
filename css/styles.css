@@ -28,6 +28,7 @@
 
 .home-description p {
   position: absolute;
+  top: 420px;
   width: 50vw;
   color: white;
   font-size: 2.4rem;
@@ -88,7 +89,7 @@
   padding-bottom: 0.5rem;
 }
 .container-social-media .img-logo {
-  height: 2rem;
+  height: 1.8rem;
 }
 
 .container-footer {
@@ -101,7 +102,7 @@
 }
 .container-footer h5 {
   color: #CCC9DC;
-  font-size: 1rem;
+  font-size: 0.8rem;
   margin: 0;
   font-family: "Montserrat", sans-serif;
 }
