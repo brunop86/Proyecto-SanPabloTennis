@@ -34,22 +34,20 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
 }
-
-.imagen-principal {
+.home-description .imagen-principal {
   width: 100vw;
   display: flex;
 }
 
 .title-obj {
   display: flex;
-  overflow: hidden;
   background-color: #CCC9DC;
   width: 100vw;
   justify-content: center;
 }
 .title-obj h2 {
   font-family: "Montserrat", sans-serif;
-  font-size: 3.2rem;
+  font-size: 3rem;
   font-weight: 400;
 }
 
@@ -61,7 +59,7 @@
 }
 .description-obj h2 {
   font-family: "Montserrat", sans-serif;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 .description-obj p {
   font-family: "Montserrat", sans-serif;
@@ -116,7 +114,7 @@
   margin-left: 2rem;
   margin-right: 2rem;
   padding: 1rem;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
 }
@@ -311,6 +309,7 @@ label {
 * {
   padding: 0;
   margin: 0;
+  overflow-x: hidden;
 }
 
 /*# sourceMappingURL=styles.css.map */

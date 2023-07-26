@@ -3,7 +3,7 @@
         height: 2rem;
     } 
     display: flex;
-    background-color: $color-secondary;
+    background-color: #1B2A41;
     width: 100vw;
     justify-content: center;
     gap: 1.5rem;
@@ -13,13 +13,13 @@
   
 .container-footer {
     display: flex;
-    background-color: $color-secondary;
+    background-color: #1B2A41;
     width: 100vw;
     justify-content: center;
     padding-top: 0.5rem;
     padding-bottom: 1rem;
         h5 {
-            color: $color-main;
+            color: #CCC9DC;
             font-size: 1rem;
             margin: 0;
             font-family: 'Montserrat', sans-serif;
