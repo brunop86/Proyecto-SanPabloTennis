@@ -71,7 +71,7 @@
 
 .sponsors {
   display: flex;
-  background-color: #1B2A41;
+  background-color: #272727;
   justify-content: space-evenly;
   width: 100vw;
   height: 4.5rem;
@@ -81,7 +81,7 @@
 
 .container-social-media {
   display: flex;
-  background-color: #1B2A41;
+  background-color: #272727;
   width: 100vw;
   justify-content: center;
   gap: 1.5rem;
@@ -94,7 +94,7 @@
 
 .container-footer {
   display: flex;
-  background-color: #1B2A41;
+  background-color: #272727;
   width: 100vw;
   justify-content: center;
   padding-top: 0.5rem;
@@ -108,24 +108,26 @@
 }
 
 .container-elclub {
-  background-color: #CCC9DC;
+  background-color: #272727;
   width: 100vw;
 }
 .container-elclub h1, .container-elclub h2 {
   margin-left: 2rem;
   margin-right: 2rem;
   padding: 1rem;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
+  color: white;
 }
 .container-elclub h3 {
   margin-left: 1rem;
   margin-right: 1rem;
   padding: 1rem;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
+  color: white;
 }
 .container-elclub p, .container-elclub li {
   margin-left: 1rem;
@@ -133,6 +135,7 @@
   padding: 1rem;
   font-size: 1.2rem;
   font-family: "Montserrat", sans-serif;
+  color: white;
 }
 .container-elclub .imagen-club {
   width: 600px;
@@ -142,69 +145,81 @@
 
 .container-formulario {
   display: flex;
-  background-color: #CCC9DC;
+  flex-direction: column;
+  background-color: #272727;
   width: 100vw;
   align-items: center;
   justify-content: center;
   font-family: "Montserrat", sans-serif;
 }
-
-fieldset legend {
+.container-formulario fieldset {
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
+.container-formulario fieldset legend {
   font-size: 2.5rem;
   padding: 2rem;
   font-family: "Montserrat", sans-serif;
-}
-
-input {
-  border-radius: 5px;
-  border: 1px solid #324A5F;
-  font-size: 1rem;
-  font-family: "Montserrat", sans-serif;
-  margin-left: 0.7rem;
-}
-
-select {
-  border-radius: 5px;
-  border: 1px solid #324A5F;
-  font-size: 1rem;
-  font-family: "Montserrat", sans-serif;
-  margin-left: 0.7rem;
-}
-
-label {
-  font-size: 1rem;
-  font-family: "Montserrat", sans-serif;
-  margin-left: 1rem;
-}
-
-.btn-submit {
-  background-color: #324A5F;
+  text-align: center;
   color: white;
-  padding: 10px;
-  border-radius: 10px;
-  margin-left: 1rem;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.2rem;
-  cursor: pointer;
 }
-
-.btn-reset {
-  background-color: #324A5F;
-  color: white;
-  padding: 10px;
-  border-radius: 10px;
-  margin-left: 1rem;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.2rem;
-  cursor: pointer;
-}
-
-.buttoms {
-  display: flex;
-  width: 100vw;
+.container-formulario fieldset form {
+  align-items: center;
   justify-content: center;
+}
+.container-formulario fieldset input {
+  border-radius: 5px;
+  border: 1px solid #324A5F;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  width: 97vw;
+}
+.container-formulario fieldset select {
+  border-radius: 5px;
+  border: 1px solid #324A5F;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  width: 97vw;
+}
+.container-formulario fieldset label {
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 2rem;
+}
+.container-formulario fieldset .buttoms {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
   padding: 2rem;
-  background-color: #CCC9DC;
+  background-color: #272727;
+}
+.container-formulario fieldset .buttoms .btn-submit {
+  background-color: rgb(168, 132, 11);
+  color: white;
+  width: 6rem;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.container-formulario fieldset .buttoms .btn-reset {
+  background-color: rgb(168, 132, 11);
+  color: white;
+  width: 6rem;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  cursor: pointer;
 }
 
 .container-galeria {
@@ -214,18 +229,18 @@ label {
   width: 100vw;
   gap: 1rem;
   padding: 1rem;
-  background-color: #CCC9DC;
+  background-color: #272727;
 }
 
 .imagen-galeria {
-  width: 400px;
-  border-radius: 1rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  width: 450px;
+  border-radius: 0.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 .container-contacto {
-  background-color: #CCC9DC;
+  background-color: #272727;
   width: 100vw;
 }
 
@@ -281,7 +296,7 @@ label {
   .sponsors {
     display: flex;
     flex-direction: column;
-    background-color: #1B2A41;
+    background-color: #272727;
     justify-content: center;
     align-items: center;
     height: auto;
@@ -289,12 +304,6 @@ label {
   .sponsors .sponsor-img {
     width: 250px;
     padding: 1rem;
-  }
-  fieldset legend {
-    text-align: center;
-    font-size: 2.5rem;
-    padding: 2rem;
-    font-family: "Montserrat", sans-serif;
   }
   .imagen-club {
     max-width: 320px;

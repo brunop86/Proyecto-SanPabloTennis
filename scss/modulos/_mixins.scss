@@ -1,12 +1,14 @@
 @mixin btn-main {
-    background-color: #324A5F;
+    background-color: rgb(168, 132, 11);
     color: white;
+    width: 6rem;
     padding: 10px;
     border-radius: 10px;
     margin-left: 1rem;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
     cursor: pointer;
+    
 }
 
 @mixin font-card {
