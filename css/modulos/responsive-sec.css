@@ -39,6 +39,27 @@
   .img-fluid {
     width: 100vw;
   }
+  .description-profesores {
+    display: flex;
+    width: 100vw;
+  }
+  .description-profesores .contenedor-profe {
+    width: 100%;
+  }
+  .description-profesores h2 {
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+  .description-profesores p {
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .description-profesores .btn-index {
+    margin-bottom: 1rem;
+    justify-content: center;
+  }
 }
 
 /*# sourceMappingURL=responsive-sec.css.map */

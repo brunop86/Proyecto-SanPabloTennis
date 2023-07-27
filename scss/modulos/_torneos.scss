@@ -1,50 +1,48 @@
 .container-formulario {
+    background-color: #272727;
     display: flex;
-    flex-direction: column;
     width: 100vw;
     align-items: center;
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
-    h3 {
+    fieldset legend {
         font-size: 2.5rem;
         padding: 2rem;
         font-family: 'Montserrat', sans-serif;
+        color: white;
         text-align: center;
-        }
-        input {
-            border-radius: 5px;
-            border: 1px solid;
-            font-size: 1rem;
-            font-family: 'Montserrat', sans-serif;
-            margin-left: 1rem;
-            margin-right: 1rem;;
-            width: 40rem;
-        }
-        select {
-            border-radius: 5px;
-            border: 1px solid;
-            font-size: 1rem;
-            font-family: 'Montserrat', sans-serif;
-            margin-left: 1rem;
-            margin-right: 1rem;
-            width: 40rem;
-        }
-        label {
-            font-size: 1rem;
-            font-family: 'Montserrat', sans-serif;
-            margin-left: 2rem;
-        }
-        .buttoms {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 100vw;
-            padding: 2rem;
-            .btn-submit {
-                @include btn-main();
-            }
-            .btn-reset {
-                @include btn-main();
-            }
-        }
     }
+    input {
+        border-radius: 5px;
+        border: 1px solid;
+        font-size: 1rem;
+        font-family: 'Montserrat', sans-serif;
+        margin-left: 0.7rem;
+    }
+    select {
+        border-radius: 5px;
+        border: 1px solid;
+        font-size: 1rem;
+        font-family: 'Montserrat', sans-serif;
+        margin-left: 0.7rem;
+    }
+    label {
+        font-size: 1rem;
+        font-family: 'Montserrat', sans-serif;
+        margin-left: 1rem;
+    }
+}
+
+.btn-submit {
+    @include btn-main();
+}
+.btn-reset {
+    @include btn-main();
+}
+.buttoms {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #272727;
+}

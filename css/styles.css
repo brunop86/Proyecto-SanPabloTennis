@@ -41,33 +41,36 @@
   display: flex;
 }
 
-.title-obj {
+.description-profesores {
   display: flex;
-  background-color: #CCC9DC;
   width: 100vw;
-  justify-content: center;
 }
-.title-obj h2 {
+.description-profesores h2 {
   font-family: "Montserrat", sans-serif;
-  font-size: 3rem;
-  font-weight: 400;
+  font-weight: 600;
+  margin-top: 9rem;
+  margin-left: 8rem;
 }
-
-.description-obj {
-  display: flex;
-  background-color: #CCC9DC;
-  width: 100vw;
-  justify-content: space-evenly;
-}
-.description-obj h2 {
+.description-profesores p {
   font-family: "Montserrat", sans-serif;
-  font-size: 2.5rem;
+  margin-left: 8rem;
 }
-.description-obj p {
+.description-profesores .btn-index {
+  background-color: #2a5436;
+  color: white;
+  width: 7rem;
+  padding: 5px;
+  border-radius: 10px;
+  margin-left: 1rem;
   font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-left: 8rem;
+  border-radius: 5rem;
+}
+.description-profesores .imagen-profesor {
+  width: 500px;
 }
 
 .sponsors {
@@ -146,17 +149,18 @@
 }
 
 .container-formulario {
+  background-color: #272727;
   display: flex;
-  flex-direction: column;
   width: 100vw;
   align-items: center;
   justify-content: center;
   font-family: "Montserrat", sans-serif;
 }
-.container-formulario h3 {
+.container-formulario fieldset legend {
   font-size: 2.5rem;
   padding: 2rem;
   font-family: "Montserrat", sans-serif;
+  color: white;
   text-align: center;
 }
 .container-formulario input {
@@ -164,52 +168,51 @@
   border: 1px solid;
   font-size: 1rem;
   font-family: "Montserrat", sans-serif;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  width: 40rem;
+  margin-left: 0.7rem;
 }
 .container-formulario select {
   border-radius: 5px;
   border: 1px solid;
   font-size: 1rem;
   font-family: "Montserrat", sans-serif;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  width: 40rem;
+  margin-left: 0.7rem;
 }
 .container-formulario label {
   font-size: 1rem;
   font-family: "Montserrat", sans-serif;
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
-.container-formulario .buttoms {
+
+.btn-submit {
+  background-color: #2a5436;
+  color: white;
+  width: 7rem;
+  padding: 5px;
+  border-radius: 10px;
+  margin-left: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.btn-reset {
+  background-color: #2a5436;
+  color: white;
+  width: 7rem;
+  padding: 5px;
+  border-radius: 10px;
+  margin-left: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.buttoms {
   display: flex;
-  align-items: center;
-  justify-content: center;
   width: 100vw;
+  justify-content: center;
   padding: 2rem;
-}
-.container-formulario .buttoms .btn-submit {
-  background-color: #2a5436;
-  color: white;
-  width: 6rem;
-  padding: 10px;
-  border-radius: 10px;
-  margin-left: 1rem;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.2rem;
-  cursor: pointer;
-}
-.container-formulario .buttoms .btn-reset {
-  background-color: #2a5436;
-  color: white;
-  width: 6rem;
-  padding: 10px;
-  border-radius: 10px;
-  margin-left: 1rem;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.2rem;
-  cursor: pointer;
+  background-color: #272727;
 }
 
 .container-galeria {
@@ -297,6 +300,27 @@
   }
   .img-fluid {
     width: 100vw;
+  }
+  .description-profesores {
+    display: flex;
+    width: 100vw;
+  }
+  .description-profesores .contenedor-profe {
+    width: 100%;
+  }
+  .description-profesores h2 {
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+  .description-profesores p {
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .description-profesores .btn-index {
+    margin-bottom: 1rem;
+    justify-content: center;
   }
 }
 /* ==========FONTS FAMILIES========== */
