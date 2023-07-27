@@ -57,7 +57,7 @@
   font-size: 1.2rem;
   cursor: pointer;
   position: absolute;
-  top: 600px;
+  top: 620px;
   width: 8rem;
   font-size: 1rem;
   font-weight: 500;
@@ -181,7 +181,6 @@
 .container-formulario {
   background-color: #272727;
   display: flex;
-  width: 100vw;
   align-items: center;
   justify-content: center;
   font-family: "Montserrat", sans-serif;
@@ -193,27 +192,28 @@
   color: white;
   text-align: center;
 }
-.container-formulario input {
+.container-formulario fieldset input {
+  border-radius: 5px;
+  border: 1px solid;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 0.7rem;
+  align-items: center;
+  justify-content: center;
+}
+.container-formulario fieldset select {
   border-radius: 5px;
   border: 1px solid;
   font-size: 1rem;
   font-family: "Montserrat", sans-serif;
   margin-left: 0.7rem;
 }
-.container-formulario select {
-  border-radius: 5px;
-  border: 1px solid;
-  font-size: 1rem;
-  font-family: "Montserrat", sans-serif;
-  margin-left: 0.7rem;
-}
-.container-formulario label {
+.container-formulario fieldset label {
   font-size: 1rem;
   font-family: "Montserrat", sans-serif;
   margin-left: 1rem;
 }
-
-.btn-submit {
+.container-formulario fieldset .btn-submit {
   background-color: #2a5436;
   color: white;
   width: 8rem;
@@ -224,8 +224,7 @@
   font-size: 1.2rem;
   cursor: pointer;
 }
-
-.btn-reset {
+.container-formulario fieldset .btn-reset {
   background-color: #2a5436;
   color: white;
   width: 8rem;
@@ -236,11 +235,11 @@
   font-size: 1.2rem;
   cursor: pointer;
 }
-
-.buttoms {
+.container-formulario fieldset .buttoms {
   display: flex;
   width: 100vw;
   justify-content: center;
+  align-items: center;
   padding: 2rem;
   background-color: #272727;
 }
