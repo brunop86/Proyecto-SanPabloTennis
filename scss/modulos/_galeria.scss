@@ -6,11 +6,27 @@
     gap: 1rem;
     padding: 1rem;
     background-color: #272727;
+    .imagen-galeria {
+        width: 450px;
+        border-radius: 0.5rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
 }
-  
-.imagen-galeria {
-    width: 450px;
-    border-radius: 0.5rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+
+.modal-header {
+    background-color: #272727;
+}
+.modal-body {
+    background-color: #272727;
+    color: white;
+}
+.modal-footer {
+    background-color: #272727;
+    .btn-secondary {
+        background-color: #2a5436;
+    }
+}
+.modal-title {
+    color: white;
 }
