@@ -85,6 +85,9 @@
   font-size: 1.2rem;
   margin-left: 8rem;
 }
+.description-profesores span {
+  color: #cfa676;
+}
 .description-profesores .btn-index {
   background-color: #2a5436;
   color: white;
@@ -100,7 +103,20 @@
   border-radius: 5rem;
 }
 .description-profesores .imagen-profesor {
-  width: 500px;
+  margin-left: 7rem;
+  width: 600px;
+}
+
+.container-novak .novak {
+  background-image: url(/images/novakverde.webp);
+  background-size: cover;
+  padding: 25rem;
+}
+.container-novak .novak h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  color: white;
+  text-align: center;
 }
 
 .sponsors {
@@ -146,16 +162,16 @@
   width: 100vw;
 }
 .container-elclub h1, .container-elclub h2 {
-  margin-left: 2rem;
+  margin-left: 3rem;
   margin-right: 2rem;
-  padding: 1rem;
+  padding: 2rem;
   font-size: 2.2rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   color: white;
 }
 .container-elclub h3 {
-  margin-left: 1rem;
+  margin-left: 2.5rem;
   margin-right: 1rem;
   padding: 1rem;
   font-size: 1.8rem;
@@ -164,8 +180,8 @@
   color: white;
 }
 .container-elclub p, .container-elclub li {
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
   margin-bottom: 0;
   padding: 1rem;
   font-size: 1.2rem;
@@ -185,6 +201,11 @@
   justify-content: center;
   font-family: "Montserrat", sans-serif;
 }
+.container-formulario fieldset form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .container-formulario fieldset legend {
   font-size: 2.5rem;
   padding: 2rem;
@@ -194,24 +215,19 @@
 }
 .container-formulario fieldset input {
   border-radius: 5px;
-  border: 1px solid;
+  border: 2px solid;
   font-size: 1rem;
   font-family: "Montserrat", sans-serif;
-  margin-left: 0.7rem;
-  align-items: center;
-  justify-content: center;
 }
 .container-formulario fieldset select {
   border-radius: 5px;
   border: 1px solid;
   font-size: 1rem;
   font-family: "Montserrat", sans-serif;
-  margin-left: 0.7rem;
 }
 .container-formulario fieldset label {
   font-size: 1rem;
   font-family: "Montserrat", sans-serif;
-  margin-left: 1rem;
 }
 .container-formulario fieldset .btn-submit {
   background-color: #2a5436;
@@ -341,7 +357,22 @@
     width: 250px;
     padding: 1rem;
   }
-  .imagen-club {
+  .container-elclub h1, .container-elclub h2 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 1rem;
+  }
+  .container-elclub h3 {
+    margin-left: 1.2rem;
+    margin-right: 1rem;
+  }
+  .container-elclub p, .container-elclub li {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 0;
+    padding: 1rem;
+  }
+  .container-elclub .imagen-club {
     max-width: 320px;
     border-radius: 1rem;
     margin-left: 2rem;
@@ -366,9 +397,13 @@
     margin-left: 1rem;
     margin-right: 1rem;
   }
-  .description-profesores .btn-index {
-    margin-bottom: 1rem;
+  .description-profesores .button-plus {
+    display: flex;
     justify-content: center;
+  }
+  .description-profesores .button-plus .btn-index {
+    margin-left: 0;
+    margin-bottom: 1rem;
   }
 }
 /* ==========FONTS FAMILIES========== */

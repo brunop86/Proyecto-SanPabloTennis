@@ -35,10 +35,27 @@
             padding: 1rem;
         }
     }
-    .imagen-club {
-        max-width: 320px;
-        border-radius: 1rem;
-        margin-left: 2rem;
+    .container-elclub {
+            h1, h2 {
+                margin-left: 2rem;
+                margin-right: 2rem;
+                padding: 1rem;
+            }
+            h3 {
+                margin-left: 1.2rem;
+                margin-right: 1rem;
+            }
+            p, li {
+                margin-left: 1rem;
+                margin-right: 1rem;
+                margin-bottom: 0;
+                padding: 1rem;
+            }
+            .imagen-club {
+                max-width: 320px;
+                border-radius: 1rem;
+                margin-left: 2rem;
+            }
     }
     .img-fluid {
         width: 100vw;
@@ -59,9 +76,13 @@
             margin-left: 1rem;
             margin-right: 1rem;
         }
-        .btn-index {
-            margin-bottom: 1rem;
+        .button-plus {
+            display: flex;
             justify-content: center;
+            .btn-index {
+                margin-left: 0;
+                margin-bottom: 1rem;
+            }
         }
     }
 }

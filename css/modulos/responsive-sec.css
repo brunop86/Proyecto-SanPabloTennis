@@ -31,7 +31,22 @@
     width: 250px;
     padding: 1rem;
   }
-  .imagen-club {
+  .container-elclub h1, .container-elclub h2 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 1rem;
+  }
+  .container-elclub h3 {
+    margin-left: 1.2rem;
+    margin-right: 1rem;
+  }
+  .container-elclub p, .container-elclub li {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 0;
+    padding: 1rem;
+  }
+  .container-elclub .imagen-club {
     max-width: 320px;
     border-radius: 1rem;
     margin-left: 2rem;
@@ -56,9 +71,13 @@
     margin-left: 1rem;
     margin-right: 1rem;
   }
-  .description-profesores .btn-index {
-    margin-bottom: 1rem;
+  .description-profesores .button-plus {
+    display: flex;
     justify-content: center;
+  }
+  .description-profesores .button-plus .btn-index {
+    margin-left: 0;
+    margin-bottom: 1rem;
   }
 }
 
