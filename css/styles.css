@@ -107,18 +107,21 @@
   width: 600px;
 }
 
-.container-novak .novak {
-  background-image: url(/images/novakverde.webp);
-  background-size: cover;
-  padding: 25rem;
+/*
+.container-novak {
+    .novak {
+        background-image: url(/images/);
+        background-size: cover;
+        padding: 25rem;
+        h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2rem;
+            color: white;
+            text-align: center;
+        }
+    }
 }
-.container-novak .novak h2 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 2rem;
-  color: white;
-  text-align: center;
-}
-
+*/
 .sponsors {
   display: flex;
   background-color: #272727;
