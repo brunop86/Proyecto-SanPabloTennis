@@ -300,6 +300,9 @@
   width: 100%;
   justify-content: space-evenly;
 }
+.container-contacto .container-social-media-coach .img-logo {
+  height: 1.8rem;
+}
 .container-contacto .card-text {
   font-family: "Montserrat", sans-serif;
   margin: 0;
