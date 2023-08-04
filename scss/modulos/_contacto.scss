@@ -19,6 +19,8 @@
         @include font-card();
         font-size: 1.2rem;
         font-weight: lighter;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
     .list-group-item {
         @include font-card();

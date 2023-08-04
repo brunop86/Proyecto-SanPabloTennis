@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu:ital@0;1&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
 .nav {
   display: flex;
   align-items: center;
@@ -308,6 +314,8 @@
   margin: 0;
   font-size: 1.2rem;
   font-weight: lighter;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 .container-contacto .list-group-item {
   font-family: "Montserrat", sans-serif;
@@ -396,13 +404,6 @@
     margin-left: 0;
     margin-bottom: 1rem;
   }
-}
-/* ==========FONTS FAMILIES========== */
-/* ==========GENERAL SETTINGS========== */
-* {
-  padding: 0;
-  margin: 0;
-  overflow-x: hidden;
 }
 
 /*# sourceMappingURL=styles.css.map */

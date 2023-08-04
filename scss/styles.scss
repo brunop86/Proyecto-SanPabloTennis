@@ -1,3 +1,5 @@
+@import "./modulos/general-setings";
+@import "./modulos/fonts";
 @import "./modulos/mixins";
 @import "./modulos/header";
 @import "./modulos/main-sec";
@@ -9,15 +11,3 @@
 @import "./modulos/galeria";
 @import "./modulos/contacto";
 @import "./modulos/responsive-sec";
-
-/* ==========FONTS FAMILIES========== */
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu:ital@0;1&display=swap');
-
-/* ==========GENERAL SETTINGS========== */
-
-* {
-  padding: 0;
-  margin: 0;
-  overflow-x: hidden;
-}
