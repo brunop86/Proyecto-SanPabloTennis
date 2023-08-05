@@ -11,6 +11,20 @@
     font-size: 1.2rem;
     padding-left: 1rem;
   }
+  .description-profesores h2 {
+    margin-top: 3rem;
+    margin-left: 4rem;
+  }
+  .description-profesores p {
+    margin-left: 4rem;
+  }
+  .description-profesores .btn-index {
+    margin-left: 4rem;
+  }
+  .description-profesores .imagen-profesor {
+    margin-left: 1rem;
+    width: 600px;
+  }
 }
 @media (max-width: 768px) {
   .main-menu {

@@ -13,6 +13,22 @@
             padding-left: 1rem;
         }
     }
+    .description-profesores {
+            h2 {
+                margin-top: 3rem;
+                margin-left: 4rem;
+            }
+            p {
+                margin-left: 4rem;
+            }
+            .btn-index {
+                margin-left: 4rem;
+            }
+        .imagen-profesor {
+            margin-left: 1rem;
+            width: 600px;
+        }
+    }
 }
 
 @media (max-width: 768px) {
