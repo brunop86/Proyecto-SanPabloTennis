@@ -9,7 +9,7 @@
         .img-logo {
             height: 1.8rem;
         } 
-        display: flex;
+        @include flex();
         padding: 0.5rem;
         height: 50px;
         width: 100%;

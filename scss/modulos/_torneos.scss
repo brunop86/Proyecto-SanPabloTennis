@@ -1,14 +1,11 @@
 .container-formulario {
+    @include flex();
     background-color: #272727;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     font-family: 'Montserrat', sans-serif;
     fieldset {
         form {
-            display: flex;
+            @include flex();
             flex-direction: column;
-            align-items: center;
         }
         legend {
             font-size: 2.5rem;
@@ -40,10 +37,8 @@
             @include btn-main();
         }
         .buttoms {
-            display: flex;
+            @include flex();
             width: 100vw;
-            justify-content: center;
-            align-items: center;
             padding: 2rem;
             background-color: #272727;
         }

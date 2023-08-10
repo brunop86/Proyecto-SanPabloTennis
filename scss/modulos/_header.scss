@@ -1,6 +1,5 @@
 .nav {
-    display: flex;
-    align-items: center;
+    @include flex();
     justify-content: space-around;
     width: 100vw;
     min-height: 10rem;

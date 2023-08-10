@@ -2,35 +2,31 @@
     background-color: #272727;
     width: 100vw;
     h1, h2 {
-        margin-left: 3rem;
-        margin-right: 2rem;
+        margin: 0 3rem 0 3rem;
         padding: 2rem;
         font-size: 2.2rem;
         font-family: 'Montserrat', sans-serif;
-        font-weight: 600;
+        font-weight: 400;
         color: white;
-        }
+    }
     h3 {
-        margin-left: 2.5rem;
-        margin-right: 1rem;
-        padding: 1rem;
+        margin: 0 2rem 0 2rem;
+        padding: 2rem;
         font-size: 1.8rem;
         font-family: 'Montserrat', sans-serif;
-        font-weight: 600;
+        font-weight: 400;
         color: white;
-        }
+    }
     p, li {
-        margin-left: 2rem;
-        margin-right: 2rem;
-        margin-bottom: 0;
+        margin: 0 2rem 0 2rem;
         padding: 1rem;
         font-size: 1.2rem;
         font-family: 'Montserrat', sans-serif;
         color: white;
-        }
+    }
     .imagen-club {
         width: 600px;
         border-radius: 1rem;
         margin-left: 3rem;
-        }
+    }
 }

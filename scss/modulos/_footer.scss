@@ -2,20 +2,18 @@
     .img-logo {
         height: 1.8rem;
     } 
-    display: flex;
+    @include flex();
     background-color: #272727;
     width: 100vw;
-    justify-content: center;
     gap: 1.5rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 }
   
 .container-footer {
-    display: flex;
+    @include flex();
     background-color: #272727;
     width: 100vw;
-    justify-content: center;
     padding-top: 0.5rem;
     padding-bottom: 1rem;
     h5 {

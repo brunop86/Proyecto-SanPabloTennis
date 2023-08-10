@@ -1,5 +1,5 @@
 .description-profesores {
-    display: flex;
+    @include flex();
     width: 100vw;
         h2 {
             font-family: 'Montserrat', sans-serif;

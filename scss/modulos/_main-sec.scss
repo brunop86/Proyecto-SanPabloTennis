@@ -31,10 +31,11 @@
         background-color: #cfa767;
     }
     .imagen-principal {
+        @include flex();
         width: 100vw;
-        display: flex;
     }
 }
+
 .responsive-map {
-    display: flex;
+    @include flex();
 }
