@@ -173,7 +173,7 @@
 .container-elclub h1, .container-elclub h2 {
   margin: 0 3rem 0 3rem;
   padding: 2rem;
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: white;
@@ -181,7 +181,7 @@
 .container-elclub h3 {
   margin: 0 2rem 0 2rem;
   padding: 2rem;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: white;
@@ -438,6 +438,8 @@
   }
   .description-profesores {
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100vw;
   }
   .description-profesores .contenedor-profe {
@@ -445,21 +447,19 @@
   }
   .description-profesores h2 {
     text-align: center;
-    margin-top: 1rem;
-    margin-left: 1rem;
+    margin: 1rem 0 1rem 0;
   }
   .description-profesores p {
     text-align: center;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin: 1rem 1rem 1rem 1rem;
   }
   .description-profesores .button-plus {
     display: flex;
     justify-content: center;
+    align-items: center;
   }
   .description-profesores .button-plus .btn-index {
-    margin-left: 0;
-    margin-bottom: 1rem;
+    margin: 0.5rem 0 1rem 0;
   }
 }
 

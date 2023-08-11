@@ -1,123 +1,17 @@
-@media (max-width: 1400px) {
-  .home-description h2 {
-    top: 380px;
-    width: 60vw;
-    font-size: 2rem;
-    padding-left: 5rem;
-  }
-  .home-description p {
-    top: 480px;
-    width: 40vw;
-    font-size: 1.2rem;
-    padding-left: 5rem;
-  }
-}
-@media (max-width: 992px) {
-  .home-description h2 {
-    top: 275px;
-    width: 60vw;
-    font-size: 2rem;
-    padding-left: 1rem;
-  }
-  .home-description p {
-    top: 380px;
-    width: 40vw;
-    font-size: 1.2rem;
-    padding-left: 1rem;
-  }
-  .description-profesores h2 {
-    margin-top: 3rem;
-    margin-left: 4rem;
-  }
-  .description-profesores p {
-    margin-left: 4rem;
-  }
-  .description-profesores .btn-index {
-    margin-left: 4rem;
-  }
-  .description-profesores .imagen-profesor {
-    margin-left: 1rem;
-    width: 600px;
-  }
-}
-@media (max-width: 768px) {
-  .main-menu {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 0;
-  }
-  .title-obj h2 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 2rem;
-  }
-  .description-obj h2 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.5rem;
-  }
-  .description-obj p {
-    font-family: "Montserrat", sans-serif;
-    font-size: 0.9rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-  .sponsors {
-    display: flex;
-    flex-direction: column;
-    background-color: #272727;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-  }
-  .sponsors .sponsor-img {
-    width: 250px;
-    padding: 1rem;
-  }
-  .container-elclub h1, .container-elclub h2 {
-    margin: 0 2rem 0 2rem;
-    padding: 1rem;
-  }
-  .container-elclub h3 {
-    margin: 0 1rem 0 1rem;
-    padding: 1rem;
-  }
-  .container-elclub p, .container-elclub li {
-    margin: 0 1rem 0 1rem;
-    margin-bottom: 0;
-  }
-  .container-elclub .imagen-club {
-    max-width: 320px;
-    border-radius: 1rem;
-    margin-left: 2rem;
-  }
-  .img-fluid {
-    width: 100vw;
-  }
-  .description-profesores {
-    display: flex;
-    width: 100vw;
-  }
-  .description-profesores .contenedor-profe {
-    width: 100%;
-  }
-  .description-profesores h2 {
-    text-align: center;
-    margin-top: 1rem;
-    margin-left: 1rem;
-  }
-  .description-profesores p {
-    text-align: center;
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-  .description-profesores .button-plus {
-    display: flex;
-    justify-content: center;
-  }
-  .description-profesores .button-plus .btn-index {
-    margin-left: 0;
-    margin-bottom: 1rem;
-  }
-}
+/* Error: Undefined mixin.
+ *     ,
+ * 111 |         @include flex();
+ *     |         ^^^^^^^^^^^^^^^
+ *     '
+ *   scss\modulos\responsive-sec.scss 111:9  root stylesheet */
 
-/*# sourceMappingURL=responsive-sec.css.map */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined mixin.\a     \2577 \a 111 \2502          @include flex();\d\a     \2502          ^^^^^^^^^^^^^^^\a     \2575 \a   scss\\modulos\\responsive-sec.scss 111:9  root stylesheet";
+}
